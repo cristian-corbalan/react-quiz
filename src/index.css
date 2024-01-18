@@ -299,9 +299,11 @@ header h1 {
   margin: 2rem auto;
   padding-bottom: 2rem;
   border-bottom: 2px solid #594276;
+  list-style: none;
+  padding-left: 0;
 }
 
-#summary-stats p {
+#summary-stats li {
   flex: 1;
   display: flex;
   flex-direction: column;
