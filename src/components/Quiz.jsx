@@ -20,6 +20,7 @@ export default function Quiz() {
 
   // Quiz complete:
   const quizComplete = activeQuestionIndex === QUESTIONS.length
+
   if (quizComplete) {
     return (
       <div id="summary">
